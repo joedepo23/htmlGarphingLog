@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <!-- this is a comment -->
+    <head>
+        <title>Statalog</title>
+        <link href="lib/myStyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onhashchange="changeHash()" onload="changeHash()">
+        <header>Statalog</header>
+        <main> 
+            <div class="dropdown">
+                <button class="dropbtn"> 
+                <i class="raindrop">Click me!</i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#CPU">CPU</a>
+                    <a href="#DomainName">Domain Name</a>
+                    <a href="#Enviroment">Enviroment</a>
+                    <a href="#Location">Location</a>
+                    <a href="#Memory">Memory</a>
+                    <a href="#memorygb">Memory GB</a>
+                    <a href="#OSTemplate">OS Template</a>
+                    <a href="#Purpose">Purpose</a>
+                </div>
+            </div> 
+            </main>
+            <h1 id="name">CPU</h1>
+            <div class="inline-block">
+                <img id="slideImg" src ="chart/CPU/BarChart.jpg">
+                <img id="slideImg1" src ="chart/CPU/PieChart.jpg">
+            </div>
+        <footer>Enterprise Automation Team</footer>
+    </body>  
+    <script src="lib/mobileApp.js"></script>
+</html>
